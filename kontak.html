@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | FEL BAKING HOUSE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">FEL <span>BAKING HOUSE</span></a>
+        <nav class="main-nav" aria-label="Navigasi utama">
+            <a href="index.html">Beranda</a>
+            <a href="tentang.html">Tentang</a>
+            <a href="katalog.html">Katalog</a>
+            <a class="active" href="kontak.html">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <p class="eyebrow">KAMI SIAP MEMBANTU</p>
+            <h1>Hubungi Kami</h1>
+            <p>Punya pertanyaan atau ingin mengetahui informasi produk? Kirim pesan melalui formulir berikut.</p>
+        </section>
+
+        <section class="contact-layout section">
+            <div class="contact-info">
+                <p class="eyebrow">INFORMASI TOKO</p>
+                <h2>Mari terhubung.</h2>
+                <p><strong>Alamat:</strong><br>Jalan hangout no.27 Pangkalpinang.</p>
+                <p><strong>Telepon:</strong><br>088274001345.</p>
+                <p><strong>Instagram:</strong><br>@felbakinghouse .</p>
+                <h3>Jam operasional</h3>
+                <div class="table-wrap">
+                    <table>
+                        <thead><tr><th>Hari</th><th>Jam</th></tr></thead>
+                        <tbody>
+                            <tr><td>Senin–Jumat</td><td>08.00–20.00</td></tr>
+                            <tr><td>Sabtu</td><td>08.00–21.00</td></tr>
+                            <tr><td>Minggu</td><td>09.00–18.00</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+
+            <form class="contact-form" action="#" method="get">
+                <h2>Kirim pesan</h2>
+                <div class="form-group">
+                    <label for="nama">Nama lengkap</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat email</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="telepon">Nomor HP</label>
+                    <input type="tel" id="telepon" name="telepon" placeholder="Contoh: 081234567890" pattern="[0-9]{10,13}" required>
+                </div>
+                <div class="form-group">
+                    <label for="keperluan">Keperluan</label>
+                    <select id="keperluan" name="keperluan" required>
+                        <option value="">Pilih keperluan</option>
+                        <option value="informasi-menu">Informasi menu</option>
+                        <option value="pemesanan">Pemesanan</option>
+                        <option value="kerja-sama">Kerja sama</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="5" minlength="10" maxlength="300" placeholder="Tulis pesan minimal 10 karakter" required></textarea>
+                </div>
+                <button class="button" type="submit">Kirim Pesan</button>
+                <p class="form-hint">Formulir ini menggunakan validasi bawaan HTML5. Pengiriman pesan sungguhan memerlukan sistem backend.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer"><p>© 2026 FEL BAKING HOUSE. Proyek UTS Pemrograman Web Dasar.</p><p>Freshly baked, made with care.</p></footer>
+</body>
+</html>
